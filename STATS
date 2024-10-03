@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Simulator 99 Stat Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Pet Simulator 99 Stat Tracker</h1>
+    <h2>Playtime Stats</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Total Playtime (hrs)</th>
+            <th>Sessions</th>
+            <th>Avg Playtime/Session (hrs)</th>
+            <th>Grinding (hrs)</th>
+            <th>Trading (hrs)</th>
+            <th>Quests (hrs)</th>
+            <th>Events (hrs)</th>
+        </tr>
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>150</td>
+            <td>45</td>
+            <td>3.3</td>
+            <td>90</td>
+            <td>30</td>
+            <td>20</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Currency Stats</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Total Coins Earned</th>
+            <th>Total Coins Spent</th>
+            <th>Net Gain/Loss</th>
+            <th>Spent on Pets</th>
+            <th>Spent on Upgrades</th>
+            <th>Spent on Trading</th>
+            <th>Gained from Quests</th>
+            <th>Gained from Trading</th>
+            <th>Gained from Events</th>
+        </tr>
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>1,000,000</td>
+            <td>500,000</td>
+            <td>500,000</td>
+            <td>300,000</td>
+            <td>150,000</td>
+            <td>50,000</td>
+            <td>300,000</td>
+            <td>200,000</td>
+            <td>100,000</td>
+        </tr>
+    </table>
+</body>
+</html>
